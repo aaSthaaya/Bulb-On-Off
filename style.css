@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bulb {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.bulb .left-btn,
+.bulb .right-btn {
+  padding: 1em 1.5em;
+  background-color: #8BC6EC;
+  border: 1px solid #8BC6EC;
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 1rem;
+  box-shadow: 4px 6px 4px #000;
+  cursor: pointer;
+}
+.bulb .left-btn:hover,
+.bulb .right-btn:hover {
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}/*# sourceMappingURL=style.css.map */
